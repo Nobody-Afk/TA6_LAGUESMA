@@ -3,46 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Deepwoken</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-image: url('deepwoken_background.jpg');
-            background-size: cover;
-        }
-        nav {
-            background-color: rgba(0, 0, 0, 0.5);
-            color: #fff;
-            padding: 1em;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-        }
-        nav a:hover {
-            color: #ccc;
-        }
-        main {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 2em;
-        }
-    </style>
+    <title>Layout 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Hub</a>
-        <a href="characters.html">Characters</a>
-        <a href="lore.html">Lore</a>
-    </nav>
-    <main>
-        <h1>About Deepwoken</h1>
-        <p>Deepwoken is a mysterious universe filled with ancient secrets and hidden dangers.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
-    </main>
+    <div id="wrapper-div">
+        <div id="header-container">
+            <div id="logo-div">
+                <img src="Logo.jpeg">
+            </div>
+            <div id="nav-div">
+                <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="MChar.html" target="_blank">Major Characters</a></li>
+                    <li><a href="Lore.html" target="_blank">Lore</a></li>
+            </div>
+        </div>
+        <div id="headerbanner-div"><img src="Banner.jpg">
+        </div>
+        <div id="main-div" class="clearfix">
+            <div id="sidebar-div">
+                <ul>
+                    <li><a href="about.html" target="_blank">About</a></li>
+                    <li><a href="MChar.html" target="_blank">Major Characters</a></li>
+                    <li><a href="Lore.html" target="_blank">Lore</a></li>
+                </ul>
+            </div>
+            <div id="bodyarea-div">
+            <p>Deepwoken is a RPG experience developed by Vows by the Sea, the same group that made Rogue Lineage and Tales from the Valley.
+                The game revolves around difficult combat and exploration. Additionally, Deepwoken is a permadeath sea-based game made by the creators of Rogue Lineage.
+                It features a new permadeath system, spell creation, and a strong emphasis on lore. The game has a balance between PvP and PvE, and neither aspect overshadows the other.
+                It's set in a world named Lumen, a half-planet ravaged by the Tides. The game's lore is deeply rooted in the concept of Oaths, which are mysterious and powerful forces that can be acquired through specific means.
+                Oaths can only be acquired through something or someone who also possesses aspects of said Oath. Breaking an Oath is only possible through the assistance of Yun'Shul's communion, with varying levels of displeasure from the Oath-givers.
+                see the <a href="Lore.html"> Lore page</a> for more details.</p>
+            </div>
+        </div>
+        <div id="footer-div">
+            <img src="Logo.jpeg">
+            <p></p>
+            <p>Email:</a></p>
+        </div>
+    </div>
 </body>
 </html>
